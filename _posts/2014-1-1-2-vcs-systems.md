@@ -1,10 +1,6 @@
 ---
 layout: slide
-title: Heads Up
----
-
-# Introduction to Version Control Systems (VCS)
-
+title: Introduction to Version Control Systems (VCS)
 ---
 
 ## What is Version Control?
