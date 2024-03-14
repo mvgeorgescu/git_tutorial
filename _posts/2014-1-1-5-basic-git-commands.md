@@ -6,7 +6,6 @@ title: Basic Git Commands
 ---
 
 <section markdown="1">
-# Basic Git Commands
 
 Git provides a set of powerful commands for managing version-controlled projects efficiently. These commands form the backbone of everyday Git usage and are essential for any developer working with Git. Let's explore some of the most commonly used Git commands:
 
