@@ -6,7 +6,6 @@ title: Common Terms in Git
 ---
 
 <section markdown="1">
-# Common Terms in Git
 
 - **Repository:** A collection of files and their history.
   - Local Repository: Exists on a local machine.
