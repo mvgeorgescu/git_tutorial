@@ -5,7 +5,7 @@ title: Common Terms in Git
 
 ---
 
-<section markdown="1" style="text-align: left;">
+<section markdown="1">
 
 ## Core Terminology and Concepts
 
