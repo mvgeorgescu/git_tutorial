@@ -20,7 +20,7 @@ title: Common Terms in Git
   - Facilitates code review and discussion.
 </section>
 
-<section markdown="1">
+<section markdown="2">
 
 ## Local Repository vs. Remote Repository:
 
