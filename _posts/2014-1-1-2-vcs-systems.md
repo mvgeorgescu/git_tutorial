@@ -7,7 +7,7 @@ title: Introduction to Version Control Systems (VCS)
 
 ### What is Version Control?
 - Version control systems (VCS) are tools that manage changes to files over time.
-- They enable collaboration among multiple contributors by allowing them to work on the same project concurrently, while keeping track of who made changes and when.
+- They enable collaboration among multiple contributors by allowing them to work on the same project concurrently.
 - Examples include Git, SVN, and Mercurial.
 
 ---
