@@ -20,7 +20,7 @@ title: Common Terms in Git
   - Facilitates code review and discussion.
 </section>
 
-<section markdown="2">
+<section markdown="1">
 
 ## Local Repository vs. Remote Repository:
 
@@ -57,6 +57,11 @@ title: Common Terms in Git
 - Merging combines changes from one branch into another.
 - It integrates the changes while preserving the commit history of both branches.
 </section>
+
+<section markdown="1">
+![branching](https://www.nobledesktop.com/image/gitresources/git-branches-merge.png)
+</section>
+
 
 <section markdown="1">
 
