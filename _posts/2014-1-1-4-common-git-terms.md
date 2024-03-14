@@ -5,10 +5,9 @@ title: Common Terms in Git
 
 ---
 
-<section markdown="1">
+<section markdown="1" style="text-align: left;">
 
 ## Core Terminology and Concepts
-
 - **Repository:** A collection of files and their history.
   - Local Repository: Exists on a local machine.
   - Remote Repository: Hosted on a remote server.
