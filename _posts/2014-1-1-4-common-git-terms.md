@@ -44,7 +44,7 @@ title: Common Terms in Git
 </section>
 
 <section markdown="1">
-![commits](https://github.com/mvgeorgescu/git_tutorial/blob/main/assets/images/commit_history.png){:style="display:block; margin-left:auto; margin-right:auto"}
+![commits](https://raw.githubusercontent.com/mvgeorgescu/git_tutorial/main/assets/images/commit_history.png){:style="display:block; margin-left:auto; margin-right:auto"}
 </section>
 
 <section markdown="1">
