@@ -8,15 +8,18 @@ title: Common Terms in Git
 <section markdown="1" style="text-align: left;">
 
 ## Core Terminology and Concepts
-- **Repository:** A collection of files and their history.
-  - Local Repository: Exists on a local machine.
-  - Remote Repository: Hosted on a remote server.
-- **Commit:** A snapshot of changes to the repository.
-- **Branch:** A parallel version of the repository.
-  - Allows for independent work.
-- **Merge:** Combines changes from one branch into another.
-- **Pull Request:** Mechanism for submitting contributions.
-  - Facilitates code review and discussion.
+
+  <section style="text-align: left;">
+  - **Repository:** A collection of files and their history.
+    - Local Repository: Exists on a local machine.
+    - Remote Repository: Hosted on a remote server.
+  - **Commit:** A snapshot of changes to the repository.
+  - **Branch:** A parallel version of the repository.
+    - Allows for independent work.
+  - **Merge:** Combines changes from one branch into another.
+  - **Pull Request:** Mechanism for submitting contributions.
+    - Facilitates code review and discussion.
+  </section>
 </section>
 
 <section markdown="1">
