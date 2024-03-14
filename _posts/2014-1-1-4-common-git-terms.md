@@ -66,36 +66,3 @@ title: Common Terms in Git
 ![branching](https://www.nobledesktop.com/image/gitresources/git-branches-merge.png){:style="display:block; margin-left:auto; margin-right:auto"}
 </section>
 
-
-<section markdown="1">
-
-### Working Directory
-
-- The working directory is where you modify files in your project.
-- It contains the actual files of the project, as well as any changes you have made since the last commit.
-- Git monitors changes in the working directory and tracks them as modifications to be staged and committed.
-</section>
-
-<section markdown="1">
-
-### Staging Area (Index):
-
-The staging area, also known as the index, is an intermediate area between your working directory and the repository.
-It acts as a holding area where you can stage changes before committing them to the repository.
-This allows you to selectively choose which changes to include in the next commit, giving you more control over the commit process.
-</section>
-
-<section markdown="1">
-
-### HEAD
-
-- HEAD is a pointer to the current branch or commit in Git.
-- It represents the state of your working directory and is typically used to refer to the latest commit on the current branch.
-- When you switch branches or check out a specific commit, Git updates the HEAD to point to the corresponding branch or commit.
-
-To view the current HEAD in Git, you can use the following command:
-```bash
-git rev-parse HEAD
-```
-</section>
-
