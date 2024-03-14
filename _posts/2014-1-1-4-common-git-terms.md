@@ -58,8 +58,8 @@ title: Common Terms in Git
 - It integrates the changes while preserving the commit history of both branches.
 </section>
 
-<section markdown="1" class="r-stack">
-![branching](https://www.nobledesktop.com/image/gitresources/git-branches-merge.png)
+<section markdown="1">
+![branching](https://www.nobledesktop.com/image/gitresources/git-branches-merge.png){:style="display:block; margin-left:auto; margin-right:auto"}
 </section>
 
 
