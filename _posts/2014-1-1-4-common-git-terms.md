@@ -45,6 +45,11 @@ title: Common Terms in Git
 
 <section markdown="1">
 
+<section markdown="1">
+![commits](https://github.com/mvgeorgescu/git_tutorial/blob/main/assets/images/commit_history.png){:style="display:block; margin-left:auto; margin-right:auto"}
+</section>
+
+
 ## Branching and Merging
 
 ### Branching:
