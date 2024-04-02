@@ -7,22 +7,28 @@ title: Common Terms in Git
 
 <section markdown="1">
 
-## Core Terminology and Concepts
+### Core Terminology and Concepts
 
-- **Repository:** A collection of files and their history.
-  - Local Repository: Exists on a local machine.
-  - Remote Repository: Hosted on a remote server.
-- **Commit:** A snapshot of changes to the repository.
-- **Branch:** A parallel version of the repository.
-  - Allows for independent work.
-- **Merge:** Combines changes from one branch into another.
-- **Pull Request:** Mechanism for submitting contributions.
-  - Facilitates code review and discussion.
+
+- **Repository:** 
+  - A collection of files and their history.
+    - *Local Repository:* Exists on a local machine.
+    - *Remote Repository:* Hosted on a remote server.
+- **Commit:** 
+  - A snapshot of changes to the repository.
+- **Branch:** 
+  - A parallel version of the repository.
+    - Allows for independent work.
+- **Merge:** 
+  - Combines changes from one branch into another.
+- **Pull Request:** 
+  - Mechanism for submitting contributions.
+    - Facilitates code review and discussion.
 </section>
 
 <section markdown="1">
 
-## Local Repository vs. Remote Repository:
+### Local Repository vs. Remote Repository:
 
 - **Local Repository:**
   - A copy of the project's entire history and files stored on your computer.
@@ -31,11 +37,13 @@ title: Common Terms in Git
 - **Remote Repository:**
   - A version of your project hosted on a remote server (e.g., GitHub, GitLab, Bitbucket).
   - Serves as a central point for collaboration, allowing team members to share changes and collaborate on the project.
+
+*It is entirely possible to run Git with only a local repository, without needing a remote repository.*
 </section>
 
 <section markdown="1">
 
-## Committing Changes
+### Committing Changes
 
 - A commit in Git is a snapshot of the project at a specific point in time.
 - It records changes to files in the repository.
