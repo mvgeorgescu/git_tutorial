@@ -40,27 +40,17 @@ nothing to commit, working tree clean
 
 <section markdown="1">
 {% highlight bash %}
-*   5964e6d Merge branch 'gh-pages' of github.com:mvgeorgescu/git_tutorial into gh-pages
-|\
-| *   cb4ff64 Merge pull request #5 from mvgeorgescu/main
-| |\
-| * \   28015c3 Merge pull request #4 from mvgeorgescu/main
-| |\ \
-| * \ \   d7f4df5 Merge pull request #3 from mvgeorgescu/main
-| |\ \ \
-* | | | | 7380ea0 adjusted formatting
-* | | | | 7b8acaf expanded vcs systems slide
-| |_|_|/
-|/| | |
-* | | | 4c0ad55 removed duplicate titles
-| |_|/
-|/| |
-* | | bb168d7 added best practices
-* | | 99a1821 Added workflow slides
-| |/
-|/|
-* | 4e0e67e Added git introduction slides
-|/
+* d069ae6 (HEAD -> 20240402_updates, origin/20240402_updates) add PR assets
+* 3336de4 update content
+* 84da7ba update git ignore
+* 91c7eb1 remove ds_store
+* 1e796dc update dependencies
+* 63bbc48 add branching diagram
+* a75cc19 (origin/main, origin/HEAD, main) added commit history img
+* 2b2206b alignment test
+* 7dade26 r-stack test
+* c3d6afd center image test
+* dd186de added branching image
 {% endhighlight %}
 </section>
 
