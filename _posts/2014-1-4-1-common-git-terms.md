@@ -57,7 +57,7 @@ title: Common Terms in Git / GitHub
   </li>
   </div>
   <div data-fragment-index="7" class="fragment highlight-current-green">
-  <li><strong>Pull Request:</strong> 
+  <li><strong>Pull Request (PR):</strong> 
     <ul>
       <li>Mechanism for submitting contributions. Facilitates code review and discussion.
       </li>

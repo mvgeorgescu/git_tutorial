@@ -90,3 +90,7 @@ nothing to commit, working tree clean
 - Merging is commonly used to incorporate feature branches into the main branch (e.g., master).
 </section>
 
+<section markdown="1">
+![branching_strategy](https://raw.githubusercontent.com/mvgeorgescu/git_tutorial/main/assets/images/git-branches-merge.png){:style="display:block; margin-left:auto; margin-right:auto; width:65%;"}
+</section>
+
