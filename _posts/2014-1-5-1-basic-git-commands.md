@@ -8,15 +8,17 @@ title: Basic Git Commands
 <section markdown="1">
 
 
-### git init: Initializing a Repository
+### Initializing a Repository
 
 - `git init` creates a new Git repository in the current directory.
-- It initializes an empty repository with a .git directory where Git stores metadata and the version history of the project.
+  - It initializes an empty repository where Git stores metadata of the project.
+- `git clone {url}` Copies a remote Git repository in the current directory.
 
-### git status: Checking the Status of the Repository
+### Checking the Status of the Repository
+- `git fetch` downloads commits from a remote repository into your local repo.
 
 - `git status` provides information about the current state of the repository.
-- It shows which files have been modified, staged, or untracked, helping you keep track of changes in your project.
+  - It shows which files have been modified, staged, or untracked.
 
 {% highlight bash %}
 ➜ git status
@@ -64,7 +66,7 @@ nothing to commit, working tree clean
 
 ### git commit: Committing Changes to the Repository
 
-- `git commit` records staged changes to the repository, creating a new commit.
+- `git commit -m '<commit message>'` records staged changes to the repository, creating a new commit.
 - Each commit has a unique identifier (SHA-1 hash), author, timestamp, and commit message describing the changes made.
 - The commit message should be descriptive and succinct, explaining the purpose of the changes.
 </section>

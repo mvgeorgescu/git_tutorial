@@ -78,7 +78,7 @@ title: Common Terms in Git / GitHub
 
 <br>
 
-![commit_diagram](https://raw.githubusercontent.com/mvgeorgescu/git_tutorial/main/assets/images/commit_history_diagram.png){:style="display:block; margin-left:auto; margin-right:auto"}
+![commit_diagram](https://raw.githubusercontent.com/mvgeorgescu/git_tutorial/main/assets/images/commit_history_diagram.png){:style="display:block; height: auth; width: 1400px; margin-left:auto; margin-right:auto"}
 </section>
 
 <section markdown="1">
@@ -118,18 +118,3 @@ The staging area, also known as the index, is an intermediate area between your 
 It acts as a holding area where you can stage changes before committing them to the repository.
 This allows you to selectively choose which changes to include in the next commit, giving you more control over the commit process.
 </section>
-
-<section markdown="1">
-
-### HEAD
-
-- HEAD is a pointer to the current branch or commit in Git.
-- It represents the state of your working directory and is typically used to refer to the latest commit on the current branch.
-- When you switch branches or check out a specific commit, Git updates the HEAD to point to the corresponding branch or commit.
-
-To view the current HEAD in Git, you can use the following command:
-```bash
-git rev-parse HEAD
-```
-</section>
-
