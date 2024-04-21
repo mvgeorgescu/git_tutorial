@@ -1,28 +1,60 @@
 ---
 layout: slide
-title: Common Terms in Git
+title: Common Terms in Git / GitHub
 ---
 
 ---
 
 <section markdown="1">
 
-## Core Terminology and Concepts
+### Core Terminology and Concepts
 
-- **Repository:** A collection of files and their history.
-  - Local Repository: Exists on a local machine.
-  - Remote Repository: Hosted on a remote server.
-- **Commit:** A snapshot of changes to the repository.
-- **Branch:** A parallel version of the repository.
-  - Allows for independent work.
-- **Merge:** Combines changes from one branch into another.
-- **Pull Request:** Mechanism for submitting contributions.
-  - Facilitates code review and discussion.
+<ul>
+  <li><strong>Repository (Repo):</strong> 
+    <ul>
+      <li>A collection of files and their history.
+        <ul>
+          <li><em>Local Repository:</em> Exists on a local machine.</li>
+          <li><em>Remote Repository:</em> Hosted on a remote server.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><strong>Commit:</strong> 
+    <ul>
+      <li>A snapshot of changes to the repository.</li>
+    </ul>
+  </li>
+  <li><strong>Branch:</strong> 
+    <ul>
+      <li>A parallel version of the repository.
+        <ul>
+          <li>Allows for independent work.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><strong>Merge:</strong> 
+    <ul>
+      <li>Combines changes from one branch into another.</li>
+    </ul>
+  </li>
+  <li><strong>Pull Request:</strong> 
+    <ul>
+      <li>Mechanism for submitting contributions.
+        <ul>
+          <li>Facilitates code review and discussion.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
 </section>
 
 <section markdown="1">
 
-## Local Repository vs. Remote Repository:
+### Local Repository vs. Remote Repository:
 
 - **Local Repository:**
   - A copy of the project's entire history and files stored on your computer.
@@ -31,16 +63,22 @@ title: Common Terms in Git
 - **Remote Repository:**
   - A version of your project hosted on a remote server (e.g., GitHub, GitLab, Bitbucket).
   - Serves as a central point for collaboration, allowing team members to share changes and collaborate on the project.
+
+*It is entirely possible to run Git with only a local repository, without needing a remote repository.*
 </section>
 
 <section markdown="1">
 
-## Committing Changes
+### Committing Changes
 
 - A commit in Git is a snapshot of the project at a specific point in time.
 - It records changes to files in the repository.
 - Each commit has a unique identifier (SHA-1 hash), author, timestamp, and commit message describing the changes made.
 - Commits are the building blocks of Git's version control system, enabling you to track changes and revert to previous states of the project if needed.
+
+<br>
+
+![commit_diagram](https://raw.githubusercontent.com/mvgeorgescu/git_tutorial/main/assets/images/commit_history_diagram.png){:style="display:block; height: auth; width: 1400px; margin-left:auto; margin-right:auto"}
 </section>
 
 <section markdown="1">
@@ -80,18 +118,3 @@ The staging area, also known as the index, is an intermediate area between your 
 It acts as a holding area where you can stage changes before committing them to the repository.
 This allows you to selectively choose which changes to include in the next commit, giving you more control over the commit process.
 </section>
-
-<section markdown="1">
-
-### HEAD
-
-- HEAD is a pointer to the current branch or commit in Git.
-- It represents the state of your working directory and is typically used to refer to the latest commit on the current branch.
-- When you switch branches or check out a specific commit, Git updates the HEAD to point to the corresponding branch or commit.
-
-To view the current HEAD in Git, you can use the following command:
-```bash
-git rev-parse HEAD
-```
-</section>
-
