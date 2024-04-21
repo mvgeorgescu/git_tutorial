@@ -75,6 +75,10 @@ title: Common Terms in Git / GitHub
 - It records changes to files in the repository.
 - Each commit has a unique identifier (SHA-1 hash), author, timestamp, and commit message describing the changes made.
 - Commits are the building blocks of Git's version control system, enabling you to track changes and revert to previous states of the project if needed.
+
+<br>
+
+![commit_diagram](https://raw.githubusercontent.com/mvgeorgescu/git_tutorial/main/assets/images/commit_history_diagram.png){:style="display:block; margin-left:auto; margin-right:auto"}
 </section>
 
 <section markdown="1">
