@@ -27,7 +27,6 @@ title: Best Practices
 
 - Avoid committing large binary files or generated artifacts that bloat the repository size.
 - Use `.gitignore` files to exclude unnecessary files and directories from version control.
-- Consider using tools like Git LFS (Large File Storage) for managing large files or assets.
 </section>
 
 <section markdown="1">
