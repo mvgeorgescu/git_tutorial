@@ -28,16 +28,16 @@ title: Common Terms in Git / GitHub
   </li>
   </div>
   <div data-fragment-index="3" class="fragment highlight-current-green">
-  <li><strong>Fetch:</strong> 
+  <li><strong>Add / Commit:</strong> 
     <ul>
-      <li>Downloads changes from a remote repository to your local repository without merging them.</li>
+      <li>A snapshot of changes to the repository.</li>
     </ul>
   </li>
   </div>
   <div data-fragment-index="4" class="fragment highlight-current-green">
-  <li><strong>Commit:</strong> 
+  <li><strong>Push, Pull, and Fetch:</strong> 
     <ul>
-      <li>A snapshot of changes to the repository.</li>
+      <li>Syncs changes between local and remote repositories</li>
     </ul>
   </li>
   </div>
