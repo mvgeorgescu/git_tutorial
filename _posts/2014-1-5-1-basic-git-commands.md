@@ -81,7 +81,6 @@ nothing to commit, working tree clean
 
 - `git branch` lists existing branches in the repository.
 - You can create a new branch using `git branch <branch_name>` and switch to it using `git checkout <branch_name>` or `git switch <branch_name>`.
-- Deleting a branch is done with `git branch -d <branch_name>`.
 
 ### git merge: Integrating Changes
 
